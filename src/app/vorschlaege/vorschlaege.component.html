@@ -1,0 +1,4 @@
+<app-profil [canFollow] = "false"></app-profil>
+<b style="padding-left: 10px;">Freundevorschlage:</b>
+<hr/>
+<app-profil *ngFor="let i of [0,1,2,3]" [name] = "namen[i]" [text] = "texts[i]" [bild] = "bilder[i]"></app-profil>

@@ -1,0 +1,24 @@
+.friend_box {
+    min-height: 40px;
+    width: 100%;
+    background-color: aliceblue;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 5px;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    display: flex;
+}
+.friend_box_item {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    align-items: center;
+    margin-left: 10px;
+    img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+    }
+}

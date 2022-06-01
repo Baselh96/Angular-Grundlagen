@@ -1,0 +1,6 @@
+<div class = "friend_box">
+    <h2 *ngIf="fs.namen.length === 0">Sie haben keine Freunde</h2>
+    <div class = "friend_box_item" *ngFor="let name of fs.namen; let i = index">
+        <img src={{fs.bilder[i]}}/> {{name}}
+    </div>
+</div>

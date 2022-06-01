@@ -1,0 +1,8 @@
+<div class="profil">
+    <img src={{bild}}>
+    <div class="text_size">
+        <b>{{name}}</b><br/>
+        <span>{{text}}</span>
+    </div>
+    <a *ngIf="canFollow" (click)="fs.addFriend(name, bild, text); canFollow= false">folgen</a>
+</div>

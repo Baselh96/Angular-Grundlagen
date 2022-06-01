@@ -1,0 +1,37 @@
+
+.hamster_card {
+    min-height: 400px;
+    width: 100%;
+    background-color: aliceblue;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 20px;
+    position: relative;
+    margin-bottom: 1%;
+}
+
+button {
+    position:absolute;
+    bottom: 0;
+    width: 50%;
+    height: 30px;
+    font-size: 20px;
+    border: unset;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: aliceblue;
+    cursor: pointer;
+    &:first-child {
+        left: 0;
+    }
+    &:last-child {
+        right: 0;
+        border-left: 1px solid rgba(0, 0, 0, 0.3);
+    }
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.04);
+    }
+}
